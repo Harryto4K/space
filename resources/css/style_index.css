@@ -1,0 +1,189 @@
+
+body {
+    margin: 0; 
+    padding: 0; 
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+
+div.nav_index {
+    margin: 0;
+    background-color: rgba(119,136,153,0.85);
+    position: sticky;
+    top: 0;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+ul {
+    padding: 25px;  
+    background-color: rgba(119,136,153,0.85);  
+    margin: 0; 
+}
+
+a.nav_index {
+    text-decoration: none;
+    color: black;
+}
+
+a.nav_index:visited {
+    text-decoration: none;
+}
+
+li {
+    display: inline; 
+    margin: 45px 35px;   
+    font-size: 15px;
+    padding: 10px 35px;
+    cursor: pointer;
+}
+
+.nav_index.li:hover {
+    background-color: navy; 
+    border-radius: 18px;
+    color: white;
+    font-weight: bold;
+    margin: 45px 34px;
+    transition: ease-in background-color 150ms;
+}
+
+
+div.nav_index.search {
+    display: inline;
+    background-color: rgba(119,136,153,0.85); 
+}
+
+.nav_index.search.letter {
+    margin-left:  450px;
+    border: 3px solid blue;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: lightgray;
+    cursor: text;
+}
+
+.nav_index.search.letter:hover {
+    background-color: white;
+    transition: ease-in all 0.1s;
+}
+
+#image-space-logo {
+    width: 75px;
+    height: 75px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 50%;  
+    cursor: pointer;
+    top: -5px;
+    z-index: 5;
+
+}
+
+#search_let {
+    position: relative;
+    right: 30px;
+    font-size: 17px;
+    color: gray;
+    border: none;
+    cursor: text;
+}
+
+div.main_body {
+    background-image: url("https://wallpaperaccess.com/full/53084.jpg");
+    width: 100%;
+    height: 650px;  
+    display: inline-block;
+    background-size: 100%;
+}
+
+h1.main_body.main_text {
+    text-align: center;
+    color:white;
+    margin-top: 200px;
+    font-size: 75px;
+    letter-spacing: 15px;
+    font-weight: bold;
+}
+
+div.main_body_button_div {  
+    text-align: center;
+}
+
+.main_body_button {
+    text-align: center; 
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 25px;
+    width: 200px;
+    height: 55px;
+    color:white;
+    background-color:rgba(111, 111, 111, 0.7); 
+    background-image: url("https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dW5pdmVyc2V8ZW58MHx8MHx8&w=1000&q=80");
+    transition: all 0.2s; 
+
+}
+
+.main_body_button:hover {
+    width: 300px;
+    transition: ease-in-out all 0.2s;
+    font-size: 15px;
+    font-weight: 700; 
+    font-size: 20px;
+}
+
+.main_body_button:active {
+    width: 300px;
+    height: 200px;
+    padding: 0; 
+    padding-bottom: 125px;
+    border: 2px solid silver;  
+    background-size: cover;
+    transition: ease-in all 0.2s;
+    font-weight: 700; 
+    font-size: 20px;
+
+}
+
+h1.main_title {
+    color: black; 
+    text-align: center;
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 75px;
+}
+
+div.flex_boxes {
+    display: flex;
+    margin: 75px 0;   
+    flex-shrink: 5;
+    flex-grow: 2; 
+    height: 500px;
+    border: 3px solid red;
+}
+
+div.flexbox {
+    display: flex;
+    padding: 50px;
+    max-width: 600px;
+    height: 400px;
+    flex-shrink: 5;
+    flex-grow: 2;
+    align-items: center;      
+    flex-direction: column; 
+    border: 3px solid red;
+}
+
+#firstimageflexbox {
+    width: 100px; 
+    height: 100px;
+}
+
+span {
+    width: 225px;
+    border: 3px solid red;
+    text-align: center;
+    flex-shrink: 2;
+    margin-top: 45px;
+}
+
